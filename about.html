@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Dancing+Script:wght@700&family=Josefin+Sans:wght@100;200;500&family=Lexend+Peta:wght@100;200;300&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Josefin+Sans:wght@100;200;500&family=Lexend+Peta:wght@100;200;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="">
+    <!-- nav is here -->
+    <nav class="navbar navbar-dark  p-0">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+                <img src="/img/p.png" alt="Logo" width="100" class="d-inline-block align-text-top text-danger">
+                <span style="margin-left:-30px;font-family: 'ADLaM Display', cursive; color:#000;">PortFolio</span>
+            </a>
+            <div class="socialM p-2">
+                <div class="socialMedia p-1">
+                    <a href="https://github.com/ankii143" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100007473554301" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/anki__choudhary97/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ankit-choudhary-ba10a2290/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="material-symbols-outlined text-dark">menu</span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-light " tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand d-flex justify-content-start align-items-center" href="#">
+                        <img src="/img/p.png" alt="Logo" width="80" class="d-inline-block align-text-top">
+                        <span
+                            style="margin-left:-20px;font-family: 'ADLaM Display', cursive; color:#000;">PortFolio</span>
+                    </a>
+
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body ">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 mx-3 pe-3 ">
+                        <li class="nav-item">
+                            <a class="nav-link text active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="experience.html">Experiences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="work.html">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="contact.html">Contact Me</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="socialM1 p-2">
+                    <div class="socialMedia p-1">
+                        <a href="https://github.com/ankii143" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100007473554301" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/anki__choudhary97/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/ankit-choudhary-ba10a2290/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav ends here -->
+    <section class="bg-body-secondary">
+        <div class="container  contact about">
+            <div class="d-grid p-3">
+                <div class="container mx-2">
+                    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                        aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">About me</li>
+                        </ol>
+                    </nav>
+                </div>
+                <h1 class="contactHead">About me</h1>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="about1 d-flex gap-1">
+                <div class="aboutClient">
+                    <div class="Happy d-flex justify-content-center bg-body-tertiary">
+                        <span class="number">
+                            <h3>3,000</h3>
+                            <p>Happy Clients</p>
+                        </span>
+                    </div>
+                    <div class="project Happy d-flex justify-content-center bg-body-tertiary">
+                        <span class="number">
+                            <h3>1030</h3>
+                            <p>Project Done</p>
+                        </span>
+                    </div>
+                    <div class="cups Happy d-flex justify-content-center bg-body-tertiary">
+                        <span class="number">
+                            <h3>300</h3>
+                            <p>Cups of Coffee</p>
+                        </span>
+                    </div>
+                    <div class="cups Happy d-flex justify-content-center bg-body-tertiary">
+                        <span class="number">
+                            <h3>487</h3>
+                            <p>Working Hours</p>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="aboutMe container">
+                    <div class="aboutinfo p-3 container">
+                        <h6 class="fw-bold mt-2">ABOUT ME</h6>
+                        <div class="aboutDesc">
+                            <h2 class="mt-3">A UI/UX Designer, Web Developer & Graphics Designer</h2>
+                            <p class="mt-3">As a web designer, my objective is to make a positive impact on clients,
+                                co-workers, and the Internet
+                                using my skills and experience to design compelling and attractive websites
+                            </p>
+                        </div>
+                        <div class="myDetail d-flex gap-2  mt-4">
+                            <div class="first ">
+                                <p class="d-flex"><span>Name:</span><span>Ankit Choudhary</span></p>
+                                <p class="d-flex"><span>Date of birth:</span> <span>August 07, 1997</span></p>
+                                <p class="d-flex"><span>Address:</span> <span>Nagri, Palampur HP IN</span></p>
+
+
+                            </div>
+                            <div class="scnd">
+                                <p class="d-flex"><span>Pin code:</span><span>176059</span></p>
+                                <p class="d-flex"><span>Email:</span> <span>ankitc98147@gmail.com</span></p>
+                                <p class="d-flex"><span>Phone:</span> <span>+91 75899-45819</span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container resume">
+                        <a href="#" download><button class="btn btn-primary">Download cv</button></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <section class="myskill bg-body-secondary ">
+        <div class="container d-flex justify-content-center mtop p-3">
+            <div class="MySkill mt-5">
+                <p class="p-center mt-2">SKILLS</p>
+                <h2 class="h-center">My Skills</h2>
+            </div>
+        </div>
+        <div class="container skillbar mt-5">
+            <div class="container">
+
+
+                <div class="skillprec ">
+                    <div class="skill_1 ">
+                        <p class="d-flex justify-content-between m-0 pb-2"><span>CORELDRAW</span> <span>90%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill_2">
+                        <p class="d-flex justify-content-between m-0 pb-2"><span>HTML5</span> <span>95%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill_3 ">
+                        <p class="d-flex justify-content-between m-0 pb-2"><span>CSS3</span> <span>95%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill_4 ">
+                        <p class="d-flex justify-content-between m-0 pb-2"><span>JAVASCRIPT</span> <span>85%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill_5 ">
+                        <p class="d-flex justify-content-between m-0 pb-2"><span>PHP</span> <span>75%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill_6 ">
+                        <p class="d-flex justify-content-between m-0 pb-2"><span>ADOBE PHOTOSHOP</span> <span>90%</span>
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill_7 ">
+                        <p class="d-flex justify-content-between m-0 pb-2"><span>REACT</span> <span>85%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill_8 ">
+                        <p class="d-flex justify-content-between m-0 pb-2"><span>BOOTSTRAP</span> <span>75%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill_9 ">
+                        <p class="d-flex justify-content-between m-0 pb-2"><span>MYSQL</span> <span>70%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label"
+                                style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="consumer bg-body-secondary">
+        <div class="container d-flex justify-content-center  p-3">
+            <div class="Consumer mt-5">
+                <p class="p-center mt-2">TESTIMONIAL</p>
+                <h2 class="h-center">Happy Guests</h2>
+            </div>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                    <div class="consumerCard d-flex">
+                        <div class="card1 card border-0 shadow d-flex flex-wrap">
+                            <div class="cardHead1 p-2 rounded">
+                                <div class="cardImg1"></div>
+                                <div class="cardTxt">
+                                    <h4>Jeff Bezos</h4>
+                                    <p>Marketing Manager</p>
+                                </div>
+                            </div>
+                            <div class="cardBody container mt-3 ">
+                                <p>"If people believe they share values with a company, they will stay loyal to the brand.
+                                A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well."</p>
+                            </div>
+                        </div>
+                        <div class="card1 card border-0 shadow d-flex flex-wrap">
+                            <div class="cardHead1 p-2 rounded">
+                                <div class="cardImg2"></div>
+                                <div class="cardTxt">
+                                    <h4>Dharmesh Shah</h4>
+                                    <p>Content Manager</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="cardBody container mt-3 ">
+                                <p>"If you work for money, you'll never make it, but if you love what you're 
+                                    doing and you always put the customer first, success will be yours."</p>
+                            </div>
+                        </div>
+                        <div class="card1 card border-0 shadow d-flex flex-wrap">
+                            <div class="cardHead1 p-2 rounded">
+                                <div class="cardImg3"></div>
+                                <div class="cardTxt">
+                                    <h4>Kara Parlin</h4>
+                                    <p>marketing entrepreneur</p>
+                                </div>
+                            </div>
+                            <div class="cardBody container mt-3">
+                                <p>"The purpose of a business is to create a customer who creates customers. 
+                                    You serve the customer better, they always return on your investment"</p>
+                            </div>
+                        </div>                  
+                       
+                    </div>
+    
+                </div>              
+            </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="consumerCard d-flex">
+                        <div class="card1 card border-0 shadow d-flex flex-wrap">
+                            <div class="cardHead1 p-2 rounded">
+                                <div class="cardImg2"></div>
+                                <div class="cardTxt">
+                                    <h4>Dharmesh Shah</h4>
+                                    <p>Content Manager</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="cardBody container mt-3">
+                                <p>"If you work for money, you'll never make it, but if you love what you're 
+                                    doing and you always put the customer first, success will be yours."</p>
+                            </div>
+                        </div>
+                        <div class="card1 card border-0 shadow d-flex flex-wrap">
+                            <div class="cardHead1 p-2 rounded">
+                                <div class="cardImg1"></div>
+                                <div class="cardTxt">
+                                    <h4>Jeff Bezos</h4>
+                                    <p>Marketing Manager</p>
+                                </div>
+                            </div>
+                            <div class="cardBody container mt-3 ">
+                                <p>"If people believe they share values with a company, they will stay loyal to the brand.
+                                A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well."</p>
+                            </div>
+                        </div>
+                        <div class="card1 card border-0 shadow d-flex flex-wrap">
+                            <div class="cardHead1 p-2 rounded">
+                                <div class="cardImg3"></div>
+                                <div class="cardTxt">
+                                    <h4>Kara Parlin</h4>
+                                    <p>marketing entrepreneur</p>
+                                </div>
+                            </div>
+                            <div class="cardBody container mt-3 ">
+                                <p>"The purpose of a business is to create a customer who creates customers. 
+                                    You serve the customer better, they always return on your investment"</p>
+                            </div>
+                        </div>                  
+                       
+                    </div>
+    
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="consumerCard d-flex">
+                        <div class="card1 card border-0 shadow d-flex flex-wrap">
+                            <div class="cardHead1 p-2 rounded">
+                                <div class="cardImg3"></div>
+                                <div class="cardTxt">
+                                    <h4>Kara Parlin</h4>
+                                    <p>marketing entrepreneur</p>
+                                </div>
+                            </div>
+                            <div class="cardBody container mt-3 ">
+                                <p>"The purpose of a business is to create a customer who creates customers. 
+                                    You serve the customer better, they always return on your investment"</p>
+                            </div>
+                        </div> 
+                        <div class="card1 card border-0 shadow d-flex flex-wrap">
+                            <div class="cardHead1 p-2 rounded">
+                                <div class="cardImg1"></div>
+                                <div class="cardTxt">
+                                    <h4>Jeff Bezos</h4>
+                                    <p>Marketing Manager</p>
+                                </div>
+                            </div>
+                            <div class="cardBody container mt-3 ">
+                                <p>"If people believe they share values with a company, they will stay loyal to the brand.
+                                A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well."</p>
+                            </div>
+                        </div>
+                        <div class="card1 card border-0 shadow d-flex flex-wrap">
+                            <div class="cardHead1 p-2 rounded">
+                                <div class="cardImg2"></div>
+                                <div class="cardTxt">
+                                    <h4>Dharmesh Shah</h4>
+                                    <p>Content Manager</p>
+                                    
+                                </div>
+                            </div>
+                            <div class="cardBody container mt-3 ">
+                                <p>"If you work for money, you'll never make it, but if you love what you're 
+                                    doing and you always put the customer first, success will be yours."</p>
+                            </div>
+                        </div>
+                                        
+                       
+                    </div>
+    
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+       
+
+    </section>
+
+
+
+    <!-- copyright is here -->
+    <section class="bg-body-secondary">
+
+        <div class="container d-flex justify-content-center align-items-end" style="height: 50vh; ">
+            <p id="copyright">Copyright ©2023 All rights reserved |<i class="fa-solid fa-heart hrt"></i>
+                ankitportfolio.com</p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/7f052308f3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

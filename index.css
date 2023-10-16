@@ -1,0 +1,1222 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Dancing+Script:wght@700&family=Josefin+Sans:wght@100;200;500&family=Lexend+Peta:wght@100;200;300&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+:root {
+    --green: #adc867;
+    --purple: #55407d;
+    --blue: #399ae4;
+    --black: #000;
+    --white: #fff;
+    --darkblue: #3899e3;
+    --light: #f8f8f8;
+    --gray: #f8f8f8;
+    --seagreen: #89e6c5;
+    --lightgray: #999999;
+    --red: #e72222;
+    --blue_opca: #3899e3d2;
+}
+
+::placeholder {
+    font-size: 13px;
+}
+
+.nav-link a {
+    text-align: center;
+    background-color: red;
+}
+
+.gray {
+    background-color: var(--gray);
+}
+
+.fontTwelve {
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.head3 {
+    font-weight: 700;
+}
+
+.wrap {
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: 0;
+    background-color: var(--white);
+}
+
+.socialM {
+    width: 60vw;
+    display: flex;
+    justify-content: end;
+
+
+}
+
+.socialM1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.socialMedia {
+    position: relative;
+    width: 15vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialMedia a i {
+    font-size: 1vw;
+    cursor: pointer;
+    padding: 0.2vw 0.2vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    text-align: center;
+    box-shadow: 0 2px 5px var(--lightgray);
+    transition: 0.2s ease-in;
+    color: #000;
+    border-radius: 34%;
+}
+
+.socialMedia i:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+
+.offcanvas-body .navbar-nav .text {
+    color: var(--black);
+    transition: 0.5s all;
+    font-size: 1vw;
+}
+
+.offcanvas-body .navbar-nav .text.active {
+    color: var(--blue)
+}
+
+.offcanvas-body .navbar-nav .text:hover {
+    color: var(--blue);
+    letter-spacing: 0.5px;
+}
+
+.wrapf {
+    display: flex;
+}
+
+.container-fluid .left {
+    position: relative;
+    width: 50%;
+
+}
+
+.container-fluid .right {
+    position: relative;
+    width: 50%;
+
+}
+
+.centerdiv {
+    width: 90%;
+    height: 80vh;
+    padding: 2vw
+}
+
+.centerdiv .heading {
+    color: var(--blue);
+    font-weight: 600;
+    font-family: Josefin Sans;
+    font-size: 1.3vw;
+}
+
+.centerdiv .who {
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: Josefin Sans;
+    margin-top: 30px;
+}
+
+.centerdiv #desc {
+    font-size: 0.8vw;
+    font-weight: 100;
+
+}
+
+.btn.btn-primary {
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    font-weight: 700;
+    border-radius: 0;
+    background-color: var(--blue);
+    padding: 0.9vw 1.2vw;
+    border: 1px solid var(--black);
+    color: var(--white);
+    margin-top: 5px;
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.Arrowentity {
+    margin-left: 5px;
+}
+
+#copyright {
+    text-align: center;
+    padding: 1vw;
+    margin-top: 10px;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright .hrt {
+    font-size: 1.1vw;
+    margin: 0 2px;
+    color: var(--red);
+}
+
+/* contact page css */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.contactHead {
+    font-weight: 700;
+
+}
+
+.contactForm .contactPage,
+.map {
+    width: 50%;
+
+}
+
+.contact .breadcrumb {
+
+    margin-left: 25px;
+}
+
+.contactPage p {
+    font-size: 14px;
+    color: #9f9999;
+}
+
+/* about me css */
+.about .breadcrumb {
+    margin-left: 7px;
+}
+
+.about1 .aboutClient,
+.aboutMe {
+    width: 50%;
+    height: 75vh;
+
+
+}
+
+.about1 .aboutClient {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5;
+}
+
+.about1 .aboutClient .Happy {
+    width: 40%;
+    background-color: red;
+    border-radius: 3px;
+}
+
+.about1 .number {
+    text-align: center;
+    padding: 35px;
+}
+
+.about1 .aboutClient .number h3 {
+    font-weight: bolder;
+    color: var(--blue);
+    font-family: 'popins', Courier, monospace;
+    font-size: 5.5vh;
+}
+
+/* about me */
+.aboutinfo .fw-bold {
+    color: var(--blue);
+    font-size: 1vw;
+    letter-spacing: 1px;
+
+}
+
+.aboutinfo .aboutDesc h2 {
+    font-weight: 500;
+    font-size: 2.4vw;
+    font-family: Josefin Sans;
+}
+
+.aboutMe .aboutinfo .aboutDesc p {
+    color: var(--lightgray);
+    font-size: 1vw;
+}
+
+.aboutinfo .myDetail .first,
+.scnd {
+    width: 50%;
+    height: 20vh;
+}
+
+.aboutinfo .myDetail span:first-child {
+    font-weight: 800;
+    font-size: 1vw;
+    width: 95px;
+}
+
+.aboutinfo .myDetail span:nth-child(2) {
+    font-weight: 900;
+    font-size: 1vw;
+    color: var(--blue);
+
+}
+
+/* my skills css */
+.myskill .MySkill {
+    width: 50vw;
+    height: 16vh;
+}
+
+.myskill .MySkill .p-center {
+    color: var(--blue);
+    font-weight: 800;
+    text-align: center;
+}
+
+.myskill .MySkill .h-center {
+    font-weight: 900;
+    text-align: center;
+}
+
+.skillbar .skillprec {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+.skillprec .skill_1,
+.skill_2,
+.skill_3,
+.skill_4,
+.skill_5,
+.skill_6,
+.skill_7,
+.skill_8,
+.skill_9 {
+    width: 31%;
+    margin-top: 20px;
+}
+
+.skillprec span {
+    font-size: 1vw;
+    padding: 0 0 2px 0;
+}
+
+.skillprec span:nth-child(2) {
+    margin-right: 1.3vw;
+}
+
+.skill_1 span:nth-child(2) {
+    margin-right: 2vw;
+}
+
+.skill_4 span:nth-child(2) {
+    margin-right: 3vw;
+}
+
+.skill_5 span:nth-child(2) {
+    margin-right: 5.5vw;
+}
+
+.skill_7 span:nth-child(2) {
+    margin-right: 3vw;
+}
+
+.skill_8 span:nth-child(2) {
+    margin-right: 5.5vw;
+}
+
+.skill_9 span:nth-child(2) {
+    margin-right: 7vw;
+}
+
+.skillprec .progress {
+    height: 1.4vh;
+    background-color: var(--white);
+}
+
+.skillprec .progress .progress-bar {
+    background-color: var(--blue);
+}
+
+
+/* consumer css here */
+.consumer .Consumer {
+    width: 50vw;
+    height: 16vh;
+}
+
+.consumer .Consumer .p-center {
+    color: var(--blue);
+    font-weight: 800;
+    text-align: center;
+}
+
+.consumer .Consumer .h-center {
+    font-weight: 900;
+    text-align: center;
+}
+
+.consumer .consumerCard {
+    width: 100%;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.consumerCard .card1,
+.card2,
+.card3,
+.card4 {
+    width: 30%;
+    height: 50vh;
+}
+
+.consumerCard .card1 .cardHead1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.consumerCard .card1 .cardHead1 .cardImg1 {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url('img/mng2.jpg');
+    background-size: cover;
+    background-position: 85px;
+}
+
+.consumerCard .card1 .cardHead1 .cardImg2 {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url('img/mng1.jpg');
+    background-size: cover;
+    background-position: 85px;
+}
+
+.consumerCard .card1 .cardHead1 .cardImg3 {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url('img/mng3.avif');
+    background-size: cover;
+    background-position: 102px;
+}
+
+.consumerCard .card1 .cardHead1 .cardTxt {
+    width: 15vw;
+    vertical-align: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.consumerCard .card1 .cardHead1 .cardTxt h4 {
+    font-weight: 600;
+    padding: 0px;
+    font-size: 1.6vw;
+}
+
+.consumerCard .card1 .cardHead1 .cardTxt p {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1vw;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.consumerCard .card1 .cardBody p {
+    font-size: 1.1vw;
+    line-height: 2;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next-icon {
+    display: none;
+}
+
+
+
+/* service css */
+.service .cards {
+    height: 165vh;
+
+}
+
+.service .cards .card-body h5 {
+    font-weight: 700;
+}
+
+.service .cards .card {
+    overflow: hidden;
+    width: 252px;
+}
+
+.service .cards .card-body p {
+    font-size: 1.2vw;
+    color: var(--lightgray);
+    text-align: center;
+}
+
+.service .cards img {
+    width: 7vw;
+    height: 15vh;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.service .cards .card:hover {
+    background-color: var(--blue);
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.service .cards .card:hover .card-body p {
+    color: var(--light);
+    transition: 0.4s all;
+}
+
+.service .cards .card:hover .card-body h5 {
+    color: var(--light);
+    transition: 0.3s all;
+}
+
+.service .cards .card:hover img {
+    filter: invert(100%);
+}
+
+
+/* pricing css */
+.pricing {
+    height: 150vh;
+}
+
+.pricing .price-center {
+    text-align: center;
+    color: var(--blue);
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.pricing .PricePlan-center {
+    text-align: center;
+    font-weight: 900;
+}
+
+.cardds .card {
+    width: 252px;
+}
+
+.cardds p {
+    color: var(--lightgray);
+}
+
+.cardds h3 {
+    font-size: 2vw;
+    font-weight: 800;
+    color: var(--blue)
+}
+
+.cardds .blue {
+    color: var(--blue);
+    font-weight: 900;
+}
+
+.cardds .butn .btns {
+    color: #fff;
+    font-size: 1vw;
+    text-decoration: none;
+    background-color: var(--darkblue);
+    border-radius: 3px;
+}
+
+.rupee .rs {
+    color: var(--lightgray)
+}
+
+
+/* experience css here */
+.experience .ex_card {
+    position: relative;
+}
+
+.experience .ex_logo {
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    background-color: var(--darkblue);
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.experience .ex_logo img {
+    object-fit: cover;
+    height: 62%;
+    width: 62%;
+    filter: invert(100%);
+}
+
+.experience .loc {
+    font-size: 1.3vw;
+    color: var(--blue);
+    padding-right: 5px;
+}
+
+.experience .ggl_location {
+    font-size: 1vw;
+    color: var(--lightgray);
+}
+
+.experience .exp_desc {
+    color: var(--lightgray);
+    font-size: 1.1vw;
+}
+
+
+/* work page css */
+.work .hover_info img {
+    width: 345px;
+    height: 70vh;
+    object-fit: fill;
+    object-position: center;
+}
+
+.work .project_info {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 345px;
+    height: 70vh;
+    background-color: var(--blue_opca);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    z-index: 0;
+    /* left:-345px; */
+    scale: 0;
+    opacity: 0;
+}
+
+.work .blok:hover .project_info {
+    z-index: 1;
+    /* left:0px; */
+    scale: 1;
+    opacity: 1;
+}
+
+.work .dv_center {
+    width: 21vw;
+    height: 23vh;
+}
+
+.work .dv_center p {
+    font-size: 0.9vw;
+    letter-spacing: 1.1px;
+
+}
+
+
+/* pagination  css */
+
+.pagination li a {
+    border-radius: 5px;
+    background-color: #e9ecef;
+    color: var(--black);
+    border: 0.5px solid var(--lightgray);
+    padding: 7px 15px;
+}
+
+
+
+.pagination li a:hover:not(.active) {
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+
+.pagination li .active {
+    background-color: var(--darkblue);
+    border: none;
+}
+
+
+
+/* blog page css */
+.blog_card {
+    height: 210vh;
+}
+
+.blog_card .card {
+    width: 260px;
+    border:none;
+}
+
+.blog_card  .cardImg{
+    width:100%;
+    height:200px;
+}
+.blog_card  .cardImg img {
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+.blog_card .card  span{
+    padding:0 10px 0 0; 
+    font-size: 1vw; 
+    font-weight:800;
+    color:var(--lightgray);
+}
+.blog_card .card span + p{
+    font-size: 1.1vw; 
+    font-weight:700;
+    color:var(--blue);
+}
+
+.blog_card .card p + h4:hover{
+   cursor: pointer;
+   color:var(--blue);
+}
+
+
+@media (max-width: 576px) {
+    
+    .blog_card {
+        height: 615vh;
+    }
+    .blog_card .card {
+        width: 93%;
+    }
+    .blog_card .card span {
+        font-size: 3vw;
+    }
+    .blog_card .card span + p {
+        font-size: 3vw;
+    }
+}
+
+
+/* all page media query */
+@media (max-width: 576px) {
+    .container {
+        padding: 0;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .socialM {
+        display: none;
+    }
+
+    .socialM1 {
+        display: block;
+    }
+
+    .socialM1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .socialMedia {
+        position: relative;
+        width: 52%;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .socialMedia a i {
+        font-size: 4vw;
+        cursor: pointer;
+        padding: 0.5vw 0.7vw;
+        /* background-color: rgb(255, 255, 255); */
+        border-radius: 2px;
+        text-align: center;
+        box-shadow: 0 2px 5px var(--lightgray);
+        transition: 0.2s ease-in;
+        color: #000;
+        border-radius: 34%;
+    }
+
+    .offcanvas-body .navbar-nav .text {
+        color: var(--black);
+        transition: 0.5s all;
+        font-size: 3vw;
+    }
+
+    .container-fluid .left {
+        padding: 8vw 2px 0;
+        width: 100%;
+
+    }
+
+    .main {
+        height: 100vh;
+    }
+
+    .centerdiv {
+        width: 90%;
+        height: 40vh;
+        padding: 1vw
+    }
+
+
+
+    .centerdiv .who,
+    .heading,
+    .hire {
+        text-align: center;
+    }
+
+    .wrapf {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .centerdiv .heading {
+        font-size: 3.5vw;
+    }
+
+    .centerdiv .who {
+        font-size: 7vw;
+    }
+
+    .centerdiv #desc {
+        font-size: 2.5vw;
+        /* padding: 2vw; */
+        text-align-last: center;
+        line-height: 0.5;
+    }
+
+    .btn.btn-primary {
+        font-size: 2.5vw;
+        padding: 1.5vw 2vw;
+
+    }
+
+    .container-fluid .right {
+        position: relative;
+        width: 100%;
+        /* top: -150px; */
+
+    }
+
+    .container-fluid .right img {
+        height: 300px;
+    }
+
+    #copyright {
+        text-align: center;
+        padding: 1vw;
+        font-size: 2.5vw;
+    }
+
+    #copyright .hrt {
+        font-size: 2.5vw;
+
+    }
+
+    /* contact form media */
+    .contact .breadcrumb {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .contact .contactHead {
+        font-size: 7vw;
+    }
+
+    .contactForm {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px 0 0;
+    }
+
+    .contactForm .contactPage {
+        width: 100%;
+
+    }
+
+    .contactForm .contactPage .head3 {
+        font-size: 5vw;
+    }
+
+    .contactForm .map {
+        width: 100%;
+        padding: 10px 0 0 0;
+    }
+
+    .contactForm .map .inner iframe {
+        width: 100%;
+    }
+
+    /* about page css */
+    .about .breadcrumb {
+        margin-left: -2px;
+        font-size: 12px;
+    }
+
+    .about .contactHead {
+        font-size: 7.2vw;
+    }
+
+    .about1 .aboutClient,
+    .aboutMe {
+        width: 100%;
+        height: 80vh;
+
+    }
+
+    .about1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .about1 .aboutClient {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5;
+    }
+
+    .about1 .aboutClient .Happy {
+        width: 90%;
+        background-color: red;
+        border-radius: 3px;
+    }
+
+    .about1 .number {
+        text-align: center;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    .about1 .aboutClient .number h3 {
+        font-weight: bolder;
+        color: var(--blue);
+        font-family: 'popins', Courier, monospace;
+        font-size: 3.8vh;
+        letter-spacing: -3px;
+    }
+
+    .about1 .aboutClient .number p {
+
+        font-size: 2vh;
+    }
+
+    .resume {
+        padding: 0 0 0 15px;
+    }
+
+    .aboutinfo .fw-bold {
+        color: var(--blue);
+        font-size: 3vw;
+
+    }
+
+    .aboutinfo .aboutDesc h2 {
+        font-weight: 500;
+        font-size: 5.5vw;
+        font-family: Josefin Sans;
+    }
+
+    .aboutMe .aboutinfo .aboutDesc p {
+        color: var(--lightgray);
+        font-size: 2.9vw;
+    }
+
+    .aboutinfo .myDetail {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aboutinfo .myDetail .first,
+    .scnd {
+        width: 100%;
+        height: 15vh;
+    }
+
+    .aboutinfo .myDetail span:first-child {
+        font-size: 3vw;
+        width: calc(100% - 150px);
+    }
+
+    .aboutinfo .myDetail span:nth-child(2) {
+
+        font-size: 3vw;
+        color: var(--blue);
+
+    }
+
+    /* skill media query */
+    .mtop {
+        margin-top: -20px;
+    }
+
+    .myskill .MySkill {
+        width: 50vw;
+        height: 10vh;
+    }
+
+    .myskill .MySkill .p-center {
+        letter-spacing: 1px;
+        font-size: 3.8vw;
+    }
+
+    .myskill .MySkill .h-center {
+        font-size: 6vw;
+    }
+
+    .skillbar .skillprec {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 80vh;
+    }
+
+    .skillprec .skill_1,
+    .skill_2,
+    .skill_3,
+    .skill_4,
+    .skill_5,
+    .skill_6,
+    .skill_7,
+    .skill_8,
+    .skill_9 {
+        width: 90%;
+    }
+
+    .skillprec span {
+        font-size: 3vw;
+        padding: 0 0 1px 0;
+    }
+
+    .skill_1 span:nth-child(2) {
+        margin-right: 6.5vw;
+    }
+
+    .skill_4 span:nth-child(2) {
+        margin-right: 10.5vw;
+    }
+
+    .skill_5 span:nth-child(2) {
+        margin-right: 19vw;
+    }
+
+    .skill_7 span:nth-child(2) {
+        margin-right: 10.5vw;
+    }
+
+    .skill_8 span:nth-child(2) {
+        margin-right: 19vw;
+    }
+
+    .skill_9 span:nth-child(2) {
+        margin-right: 23vw;
+    }
+
+    .skillprec .progress {
+        height: 1vh;
+        background-color: var(--white);
+    }
+
+    /* consumer media query */
+    .consumer .consumerCard {
+        height: 50vh;
+    }
+
+    .p-center {
+        font-size: 3.8vw;
+        text-align: center;
+    }
+
+    .h-center {
+        font-size: 6vw;
+    }
+
+    .consumerCard .card1 {
+        width: 90%;
+        height: 37vh;
+    }
+
+    .consumerCard .card1 .cardHead1 .cardImg1 {
+        width: 65px;
+        height: 65px;
+        background-position: 75px;
+    }
+
+    .consumerCard .card1 .cardHead1 .cardImg2 {
+        width: 65px;
+        height: 65px;
+        background-position: 70px;
+    }
+
+    .consumerCard .card1 .cardHead1 .cardImg3 {
+        width: 65px;
+        height: 65px;
+        background-position: 85px;
+    }
+
+    .consumerCard .card1 .cardHead1 .cardTxt {
+        width: 45vw;
+    }
+
+    .consumerCard .card1 .cardHead1 .cardTxt h4 {
+        font-size: 4vw;
+    }
+
+    .consumerCard .card1 .cardHead1 .cardTxt p {
+        font-size: 2.8vw;
+    }
+
+    .consumerCard .card1 .cardBody p {
+        font-size: 3.1vw;
+        padding: 2px 10px;
+    }
+
+
+    .card1:not(:first-child) {
+        visibility: hidden;
+    }
+
+    /* service media query */
+    .service .cards {
+        height: auto;
+    }
+
+    .service .cards .card {
+        width: 100%;
+    }
+
+    .service .cards img {
+        width: 21vw;
+        height: auto;
+        object-fit: contain;
+        padding: 10px;
+    }
+
+    .service .cards .card-body p {
+        font-size: 3.5vw;
+        color: var(--lightgray);
+        text-align: center;
+    }
+
+    /* pricing media query */
+    .pricing {
+        height: auto;
+    }
+
+    .cardds .card {
+        width: 90%;
+    }
+
+    .cardds h3 {
+        font-size: 6vw;
+    }
+
+    .cardds .butn .btns {
+        font-size: 3vw;
+    }
+
+    /* experience media query */
+    .experience .ex_logo {
+        position: absolute;
+        width: 15vw;
+        height: 15vw;
+        background-color: var(--darkblue);
+        border-radius: 50%;
+        margin-top: -50px;
+    }
+
+    .experience .loc {
+        font-size: 4vw;
+    }
+
+    .experience .ggl_location {
+        font-size: 3.8vw;
+    }
+
+    .experience .exp_desc {
+        font-size: 3.5vw;
+    }
+
+    /* pagination media query */
+
+    .work .hover_info img {
+        width: 345px;
+        height: 63vh;
+        object-fit: fill;
+        object-position: center;
+    }
+
+    .work .dv_center {
+        width: 95vw;
+        height: 25vh;
+    }
+
+    .work .dv_center p {
+        font-size: 3.5vw;
+    }
+}

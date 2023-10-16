@@ -1,0 +1,11 @@
+@media (max-width: 480px) {
+    body{
+        background-color: red;
+    }
+    .container-fluid .left {
+        width: 100%;
+        z-index:1;
+        background-color: pink;
+    }
+    
+}
